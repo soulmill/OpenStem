@@ -1,0 +1,16 @@
+A. SUB
+B. BASS
+B. DRUM Bottom Left
+C. DRUM Bottom Right
+D. DRUM Top Left
+E. DRUM Top Right
+F. DRUM Drop Left
+G. DRUM Drop Right
+H. RYTHM X Left
+I. RYTHM X Right
+J. RYTHM Y Left
+K. RYTHM Y Right
+L. HARMONY O Left
+M. HARMONY O Right
+N. HARMONY A Left
+O. HARMONY A Right

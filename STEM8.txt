@@ -1,8 +1,0 @@
-1. BASS
-2. DRUM Bottom
-3. DRUM Top
-4. DRUM Drop
-5. RYTHM X
-6. RYTHM Y
-7. HARMONY O
-8. HARMONY A
