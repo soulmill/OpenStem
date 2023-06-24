@@ -27,10 +27,13 @@ function factory (unused_params)
     pfile:close()
 
     local playhead = Session:transport_sample ()
-    local routes = Editor:get_selection ().tracks:routelist ()
-
     local j = 1
+
+    local routes = Editor:get_selection ().tracks:routelist ()
     for route in routes:iter () do
+    -- You can replace the two lines above with the following for selecting channel statically by name prefix.
+    -- for j=1,i do
+    --   local route = Session:route_by_name("Ch "..j)
       if j < i then
         local files = C.StringVector()
         files:push_back(path.."/"..t[j])
