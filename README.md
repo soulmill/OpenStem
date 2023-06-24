@@ -6,7 +6,6 @@ An open format for sharing and mixing multitrack audio sources.
 - *RYTHM* as composed of rythmic or percussive instruments.
 - *HARMONY* as composed of melodic instruments or vocals.
 
-
 Each channel is encoded as single mono WAV file with the filename starting with the channel identifier (ie. `1-bassline.wav`, `A_Acoustic Bass.wav`, `A.wav`, ...).
 
 ## Formats
@@ -18,3 +17,7 @@ This format contains 9 mono tracks.
 ### [STEM16](STEM16.txt)
 
 This format contains 2 mono tracks and 7 stereo tracks, for a total of 16 channels.
+
+## Tools
+
+The directory `ardour` contains a script to import channels from an OpenStem directory into an [Ardour](https://ardour.org/) session.
